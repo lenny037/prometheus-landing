@@ -394,6 +394,7 @@
     const phone = document.getElementById('phone').value;
 
     // CORRECT WEBHOOK URL - using your n8n Cloud endpoint
+    
     const webhookURL = 'https://lstechnologies.app.n8n.cloud/webhook/lead-capture';
 
     const payload = { name, email, phone, source: 'Prometheus Landing Page', timestamp: new Date().toISOString() };
